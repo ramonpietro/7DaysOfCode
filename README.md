@@ -1,5 +1,5 @@
 # 7DaysOfCode
-## Tencologias utilizadas
+## Tecnologias utilizadas
 - HTML
 - CSS
 ## Demonstração do Projeto
