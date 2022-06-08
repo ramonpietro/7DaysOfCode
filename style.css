@@ -1,0 +1,332 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-right: 2rem
+}
+
+button {
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+button#SignUp {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.sobre {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.sobre span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.sobre h1 {
+    font-size: 2rem;
+}
+
+.sobre p {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    align-items: flex-start;
+    max-width: 70vw;
+    justify-content: space-around;
+    gap: 64px;
+    margin: 96px 0;
+    padding: 0px 32px;
+}
+
+.infos .card-info {
+    width: 17.5rem;
+}
+
+.infos h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 62px;
+    color: var(--main-color)
+}
+
+.infos h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.infos p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas #vagas-abertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    width: 125px;
+    height: 28px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+    margin-bottom: 16px;
+}
+
+.talentos p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+.talentos p:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin-bottom: 60px;
+}
+
+.vagas-abertas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    margin: 0;
+}
+
+.vagas-abertas-container h3 {
+    font: 500 1.25rem;
+    color: #101828;;
+    text-align: left;
+    margin: 4rem 20% 2rem 20%;
+}
+
+.vaga {
+    border-radius: 1rem;
+    border: 1px solid #EAECF0;
+    width: 768px;
+    height: 136px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0px;
+}
+
+.vagas .vagas-abertas-container .vaga .titulo-vaga {
+    font: 500 1.125rem 'Inter';
+    color: #101828;
+    margin: 1.5rem;
+}
+
+.vagas .vagas-abertas-container .vaga .informacoes {
+    display: flex;
+    gap: 1rem;
+    font: 500 1rem 'Inter';
+    color: #667085;
+    margin: 1.5rem;
+}
+
+.vagas .comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 0 50px 100px;
+    padding: 64px;
+    gap: 32px;
+}
+
+.vagas .comentarios .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.vagas .comentarios .quote p {
+    font: 600 14px 'Inter';
+    color: #8E2424;
+}
+
+.vagas .comentarios .quote h2 {
+    font: 500 30px 'Inter';
+    letter-spacing: -0.02rem;
+    color: #101828;
+    text-align: center;
+}
+
+.vagas .comentarios .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.vagas .comentarios .text-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.vagas .comentarios .text-profile span {
+    font: 500 16px 'Inter';
+    color: #101828;
+    text-align: center;
+}
+
+.vagas .comentarios .text-profile p {
+    font: 400 14px 'Inter';
+    color: #667085;
+    text-align: center;
+}
+
+form {
+    padding: 96px 0px;
+    background: #F9FAFB;
+}
+
+form .form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+}
+
+form .form-content .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form .form-content .heading h2 {
+    font: 600 36px 'Inter';
+    color: #101828;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+form .form-content .heading p {
+    font: 400 20px 'Inter';
+    color: #667085;
+    text-align: center;
+}
+
+form .form-content .email-capture {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;
+}
+
+form .form-content .email-capture input {
+    box-sizing: border-box;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+    width: 360px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+font-family: 'Inter';
+    font: 400 16px 'Inter';
+    line-height: 24px;
+    color: #667085;
+}
+
+form .form-content .email-capture button {
+    background: #8E2424;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    width: 116px;
+    height: 48px;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font: 500 16px 'Inter';
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+form .footer-text {
+    font: 400 16px 'Inter';
+    font-family: 'Inter';
+    line-height: 24px;
+    color: #98A2B3;
+}
